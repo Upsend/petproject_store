@@ -1,4 +1,4 @@
-from utils.http_methods import Http_methods
+from .http_methods import Http_methods
 import random
 
 """"Описание тест-кейсов"""
