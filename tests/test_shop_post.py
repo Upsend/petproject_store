@@ -4,7 +4,7 @@ from utils.ShopAPI import ShopAPI
 
 """Запуск и проверка результатов тестов"""
 
-class Test_item():
+class Test_item_add():
 
 
     def test_crete_new_item_full(self):

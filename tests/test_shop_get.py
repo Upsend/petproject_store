@@ -4,7 +4,7 @@ from utils.ShopAPI import ShopAPI
 
 """Запуск и проверка результатов тестов"""
 
-class Test_item():
+class Test_item_get():
 
     def test_get_item_info(self):
         res_get = ShopAPI.get_item_info("200")

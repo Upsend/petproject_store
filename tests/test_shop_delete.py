@@ -4,7 +4,7 @@ from utils.ShopAPI import ShopAPI
 
 """Запуск и проверка результатов тестов с методом DELETE"""
 
-class Test_item():
+class Test_item_del():
 
     def test_delete_correct(self):
         #Удалим запись методом Delete

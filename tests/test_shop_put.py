@@ -4,7 +4,7 @@ from utils.ShopAPI import ShopAPI
 
 """Запуск и проверка результатов тестов"""
 
-class Test_item():
+class Test_item_update():
 
     def test_update_item_correct(self):
         res_put = ShopAPI.update_item_correct("176")
