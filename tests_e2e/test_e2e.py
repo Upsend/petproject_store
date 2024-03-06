@@ -62,6 +62,6 @@ class Test_item:
         Checkings.check_keyword(res_get, False, "status", "error")
         Checkings.check_keyword(res_get, False, "field_error", "id")
         Checkings.check_keyword(res_get, False, "error", "item_with_id_not_found")
-        Checkings.check_keyword(res_get, False, "message", f"Товар с ID {current_id} не найден!")
+        Checkings.check_keyword(res_get, False, "message", f"Товар с ID {current_id} не найден!2")
 
 
