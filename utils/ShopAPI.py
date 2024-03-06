@@ -1,8 +1,9 @@
-from utils.http_methods import Http_methods
+
 import random
 import os
 import sys
 sys.path.append(os.getcwd())
+from utils.http_methods import Http_methods
 
 """"Описание тест-кейсов"""
 
