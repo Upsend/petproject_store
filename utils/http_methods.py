@@ -1,4 +1,7 @@
 import requests
+import os
+import sys
+sys.path.append(os.getcwd())
 
 class Http_methods:
     headers = {'Content-type': 'application/json'}

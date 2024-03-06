@@ -1,6 +1,9 @@
 from requests import Response
 from utils.Checkings import Checkings
 from utils.ShopAPI import ShopAPI
+import os
+import sys
+sys.path.append(os.getcwd())
 
 """Запуск и проверка результатов тестов"""
 
